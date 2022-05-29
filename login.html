@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Form</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form class="formulir">
+            <h3>LOGIN</h3>
+            <label>Username</label><br>
+            <i class='bx bx-user'></i>
+            <input class="porm" type="text" id="user" name="name" autocomplete="off" readonly
+            onfocus="this.removeAttribute('readonly')";><br>
+            <label>Password</label><br>
+            <i class='bx bx-lock'></i>
+            <input class="porm" type="password" id="pass" name="password" autocomplete="off" readonly 
+            onfocus="this.removeAttribute('readonly')"><br>
+            <a class="else" href="#">forgot password</a><br>
+            <input type="submit" class="kirim" value="Log In" id="send" name="kirim">
+            <p class="option">or login with</p>
+        </form>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>

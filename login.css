@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+body{
+    background : linear-gradient(to bottom left, purple, blue, teal );
+    background-attachment: fixed;
+    display: flex;
+}
+.container{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    margin: 50px auto;
+    border-radius: 7%;
+    justify-content: center;
+}
+h3{
+   text-align: center;
+   margin: 25px auto;
+   
+}
+.formulir{
+    margin: 50px auto;
+    font-size: medium;
+}
+.porm{
+    border: none;
+    background-color: whitesmoke;
+    height: 26px;
+    box-shadow: 2px 1.5px #888888;
+    margin: 7px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+i{
+   position: absolute;
+   margin-left: -15px;
+   margin-top: 10px;
+}
+label{
+    font-size: 20px;
+    margin: 4px;
+}
+.else{
+    margin-left: 150px;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+p{
+    margin-left : 80px;
+    margin-top: 40px;
+}
+.kirim{
+    width: 150px ;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    font-style: bold;
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(167, 61, 167), rgb(57, 57, 245), rgb(4, 185, 185) );
+}
+.kirim:hover, .kirim.active{
+    background: red;
+}
